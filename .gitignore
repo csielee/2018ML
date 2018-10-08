@@ -103,5 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# datasets
+
+*.idx1-ubyte
+*.idx3-ubyte
+
 # other
 *.zip
