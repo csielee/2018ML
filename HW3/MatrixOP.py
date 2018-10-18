@@ -46,6 +46,16 @@ def mul_matrix_scalar(s, m):
         r.append([j*s for j in i])
     
     return r;
+
+def add_matrix_scalar(s, m):
+    if type(m) != list:
+        raise Exception("type error : " + str(type(m)))
+    
+    r = [];
+    for i in m:
+        r.append([j+s for j in i])
+    
+    return r;
         
 def unit_matrix(n):
     unit = [];
