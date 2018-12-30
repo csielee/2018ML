@@ -110,3 +110,5 @@ venv.bak/
 
 # other
 *.zip
+
+HW8/tsne.py
